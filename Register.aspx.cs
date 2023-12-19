@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
@@ -26,8 +24,6 @@ namespace ConAppAssignment9
                 LblMsg.Text += "Your Password is: " + TxtCustPwd.Text + "<br />";
             }
         }
-
-
 
         protected void CustomValidator1_ServerValidate(object source, ServerValidateEventArgs args)
         {
